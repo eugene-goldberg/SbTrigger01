@@ -8,6 +8,9 @@
     <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.ServiceBus" Version="3.0.3" />
   </ItemGroup>
   <ItemGroup>
+   <PackageReference Include="System.Data.SqlClient" Version="4.6.1" />
+  </ItemGroup>
+  <ItemGroup>
     <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\runtimes\unix\lib\netstandard1.3\System.Text.Encoding.CodePages.dll" />
     <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll" />
     <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\bin\Microsoft.AspNetCore.JsonPatch.dll" />
@@ -124,6 +127,38 @@
     <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\bin\Microsoft.Azure.WebJobs.Extensions.dll" />
     <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\bin\Microsoft.Azure.Services.AppAuthentication.dll" />
     <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\bin\Microsoft.Azure.WebJobs.dll" />
+    <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\host.json" />
+    <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\SbTrigger01.deps.json" />
+    <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\bin\Microsoft.AspNetCore.Http.Features.dll" />
+    <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\bin\Microsoft.AspNetCore.JsonPatch.dll" />
+    <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\runtimes\win\lib\netstandard1.3\System.Text.Encoding.CodePages.dll" />
+    <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\bin\Microsoft.AspNetCore.Routing.Abstractions.dll" />
+    <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\runtimes\unix\lib\netstandard1.3\System.Text.Encoding.CodePages.dll" />
+    <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\bin\Microsoft.AspNetCore.Mvc.Core.dll" />
+    <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\bin\Microsoft.AspNetCore.WebUtilities.dll" />
+    <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\bin\Microsoft.AspNetCore.Http.Extensions.dll" />
+    <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\bin\Microsoft.Azure.ServiceBus.dll" />
+    <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\bin\Microsoft.Azure.WebJobs.dll" />
+    <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\bin\Microsoft.Azure.Amqp.dll" />
+    <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll" />
+    <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\bin\Microsoft.Azure.Services.AppAuthentication.dll" />
+    <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\bin\Microsoft.AspNetCore.Routing.dll" />
+    <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\bin\Microsoft.Azure.WebJobs.Extensions.dll" />
+    <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\bin\Microsoft.AspNetCore.Mvc.Formatters.Json.dll" />
+    <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\bin\Microsoft.AspNetCore.Mvc.WebApiCompatShim.dll" />
+    <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\bin\Microsoft.Azure.WebJobs.Extensions.Http.dll" />
+    <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll" />
+    <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\bin\Microsoft.Azure.WebJobs.Host.Storage.dll" />
+    <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\bin\Microsoft.Build.Framework.dll" />
+    <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\bin\Microsoft.Extensions.Configuration.EnvironmentVariables.dll" />
+    <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\bin\Microsoft.Extensions.Configuration.Abstractions.dll" />
+    <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\bin\Microsoft.Extensions.Configuration.dll" />
+    <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\bin\Microsoft.Extensions.Configuration.FileExtensions.dll" />
+    <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\bin\Microsoft.Build.Utilities.Core.dll" />
+    <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\bin\Microsoft.Azure.WebJobs.ServiceBus.dll" />
+    <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\bin\Microsoft.Azure.WebJobs.Host.dll" />
+    <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\bin\Microsoft.Extensions.Configuration.Binder.dll" />
+    <None Remove="obj\Release\netcoreapp2.1\PubTmp\Out\bin\Microsoft.DotNet.PlatformAbstractions.dll" />
   </ItemGroup>
   <ItemGroup>
     <None Update="host.json">
