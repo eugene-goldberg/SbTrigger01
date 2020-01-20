@@ -5,12 +5,12 @@ using Microsoft.Extensions.Logging;
 
 namespace SbTrigger01
 {
-    public static class SbTrigger01
+    public static class SbTrigger02
     {
-        [FunctionName("SbTrigger01")]
-        public static void Run([ServiceBusTrigger("BasicQueue", Connection = "connection")]string myQueueItem, ILogger log)
+        [FunctionName("SbTrigger02")]
+        public static void Run([ServiceBusTrigger("BasicQueue", Connection = "servicebus001968_RootManageSharedAccessKey_SERVICEBUS")]string myQueueItem, ILogger log)
         {
-            log.LogInformation($"C# ServiceBus queue trigger function processed message: {myQueueItem}");
+            log.LogInformation($" {myQueueItem}");
         }
     }
 }
